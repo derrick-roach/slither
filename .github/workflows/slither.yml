@@ -42,7 +42,7 @@ jobs:
         id: slither
         with:
           sarif: results.sarif
-          # fail-on: none
+          fail-on: none
           # target: 'src/'
 
       # Upload the results as artifacts (optional). Commenting out will disable uploads of run results in SARIF

@@ -51,5 +51,6 @@ jobs:
         uses: actions/upload-artifact@6673cd052c4cd6fcf4b4e6e60ea986c889389535 # v3.0.0
         with:
           name: SARIF file
-          path: results.sarif
+          # path: results.sarif
+          path: ${{ steps.slither.outputs.sarif }}
           retention-days: 5

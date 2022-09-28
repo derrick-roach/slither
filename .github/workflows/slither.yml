@@ -35,7 +35,7 @@ jobs:
         with:
           repository: FraxFinance/frax-solidity
           # repository: Uniswap/v3-core
-          path: frax-solidity/src/hardhat/contracts
+          # path: ./src
           persist-credentials: false
     
       - name: "Slither action"

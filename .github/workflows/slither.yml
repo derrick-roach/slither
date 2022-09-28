@@ -38,7 +38,7 @@ jobs:
           persist-credentials: false
     
       - name: "Slither action"
-      - uses: crytic/slither-action@35510b34cfdfb137d9816d27378ee8c217f1fa1c #v0.1.1
+        uses: crytic/slither-action@35510b34cfdfb137d9816d27378ee8c217f1fa1c #v0.1.1
         id: slither
         with:
           sarif: results.sarif
